@@ -7,7 +7,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background-color: blue;
     font-family: 'Open Sans', sans-serif;
   }
 
@@ -22,7 +21,6 @@ function App() {
     <div className="App">
       <GlobalStyle/>
       <Navbar/>
-      <h1>Jr's PizzaShop</h1>
     </div>
   );
 }
