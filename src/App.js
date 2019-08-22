@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.scss';
 import { createGlobalStyle } from 'styled-components'
+import {Navbar} from './Navbar/Navbar';
 
 const GlobalStyle = createGlobalStyle`
   body {
+    margin: 0;
+    padding: 0;
     background-color: blue;
     font-family: 'Open Sans', sans-serif;
   }
@@ -18,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle/>
+      <Navbar/>
       <h1>Jr's PizzaShop</h1>
     </div>
   );
