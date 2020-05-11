@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.scss';
-import { createGlobalStyle } from 'styled-components'
-import {Navbar} from './Navbar/Navbar';
+import React from "react";
+import "./App.scss";
+import { createGlobalStyle } from "styled-components";
+import { Navbar } from "./Navbar/Navbar";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -14,13 +14,13 @@ const GlobalStyle = createGlobalStyle`
     color: white;
     font-family: 'Righteous', cursive;
   }
-`
+`;
 
 function App() {
   return (
     <div className="App">
-      <GlobalStyle/>
-      <Navbar/>
+      <GlobalStyle />
+      <Navbar />
     </div>
   );
 }
