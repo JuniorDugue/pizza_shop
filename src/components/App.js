@@ -1,7 +1,8 @@
 import React from "react";
-import "./App.scss";
+import "../App.scss";
 import { createGlobalStyle } from "styled-components";
-import { Navbar } from "./Navbar/Navbar";
+import { Navbar } from "./shared/Navbar.js";
+import { Banner } from "./shared/Banner.js";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -21,6 +22,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <Navbar />
+      <Banner/>
     </div>
   );
 }
