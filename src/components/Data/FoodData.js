@@ -12,39 +12,31 @@ export const foods = [
         img: "/img/stockpizza5.jpg"
     },
     {
-        name: "",
-        img: "img/"
+        name: "Pineapple Pizza",
+        img: "img/stockpizza16.jpg"
     },
     {
-        name: "",
-        img: "img/"
+        name: "Bacon Pizza",
+        img: "img/stockpizza15.jpg"
     },
     {
-        name: "",
-        img: "img/"
+        name: "Vegan Pizza",
+        img: "img/stockpizza12.jpg"
     },
     {
-        name: "",
-        img: "img/"
+        name: "Frosting Pizza",
+        img: "img/stockpizza11.jpg"
     },
     {
-        name: "",
-        img: "img/"
+        name: "Spicy Pizza",
+        img: "img/stockpizza10.jpg"
     },
     {
-        name: "",
-        img: "img/"
+        name: "Mushroom Pizza",
+        img: "img/stockpizza9.jpg"
     },
     {
-        name: "",
-        img: "img/"
-    },
-    {
-        name: "",
-        img: "img/"
-    },
-    {
-        name: "",
-        img: "img/"
+        name: "Bits of Pizza",
+        img: "img/stockpizza8.jpg"
     },
 ]

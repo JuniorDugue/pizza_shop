@@ -9,7 +9,7 @@ export const FoodGrid = styled.div`
 
 export const FoodLabel = styled.div`
     position: absolute;
-    background: white;
+    background: rgba(255, 255, 255, 0.52);
     padding: 5px;
 `
 
@@ -23,4 +23,9 @@ export const Food = styled(Title)`
     filter: contrast(75%);
     border-radius: 32px;
     box-shadow: 0px 0px 8px 1px grey;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+    }
 `;
