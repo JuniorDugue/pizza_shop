@@ -1,19 +1,25 @@
 import React from "react";
 import styled from "styled-components";
-import {foods} from "./FoodData";
+import { foods } from "../Data/FoodData";
+import { Food, FoodGrid, FoodLabel } from "./FoodGrid";
 
 const MenuStyled = styled.div`
-    border: 2px solid black;
-    margin: 0px 400px 50px 20px;
-    height: 1000px;
-`
+  border: 2px solid black;
+  margin: 0px 400px 50px 20px;
+  height: 1000px;
+`;
 
-export function Menu(){
-    return(
-        <MenuStyled>
-        {foods.map(food => (
-            <div>{food.name}</div>
+export function Menu() {
+  return (
+    <MenuStyled>
+      <h2>Menu</h2>
+      <FoodGrid>
+        {foods.map((food) => (
+          <Food img={food.img}>
+            <FoodLabel>{food.name}</FoodLabel>
+          </Food>
         ))}
-        </MenuStyled>
-    )
+      </FoodGrid>
+    </MenuStyled>
+  );
 }
