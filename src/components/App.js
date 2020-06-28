@@ -3,6 +3,7 @@ import "../App.scss";
 import { createGlobalStyle } from "styled-components";
 import { Navbar } from "./shared/Navbar.js";
 import { Banner } from "./shared/Banner.js";
+import { Menu } from "./Menu/Menu.js";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -23,6 +24,8 @@ function App() {
       <GlobalStyle />
       <Navbar />
       <Banner/>
+      <Menu/>
+      <h2>Junior's Pizza Shop</h2>
     </div>
   );
 }
