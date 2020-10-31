@@ -1,7 +1,17 @@
+# Jr's PizzaShop
 
-Tech Stack: React Hooks, styled-components, firebase, & node.js 
+### Tech Stack: 
+- React Hooks,
+- styled-components, 
+- firebase, 
+- & node.js 
 
-Features: CSS(3)  with grids, flexbox & animations, Firebase(authenticating users with Google, database to track food orders, and functions to respond to orders), CRUD with orders, emailing orders with node.js, calculating tax & total of orders, 
+### Features: 
+- CSS(3) with grids, flexbox & animations, 
+- Firebase(authenticating users with Google, database to track food orders, and functions to respond to orders) 
+- CRUD with orders, emailing orders with node.js, calculating tax & total of orders
+
+----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
