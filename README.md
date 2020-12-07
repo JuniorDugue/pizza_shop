@@ -1,4 +1,5 @@
 # Jr's PizzaShop
+- visit us https://pizza-shop.vercel.app/
 
 ### Tech Stack: 
 - React Hooks,
